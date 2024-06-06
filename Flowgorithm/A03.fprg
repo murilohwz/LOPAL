@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-06 10:34:50 "/>
+        <attribute name="created" value="QWx1bm87TElNMDMtTjE0OzIwMjQtMDItMDY7IjEwOjI1OjAxICI7MjI0MA=="/>
+        <attribute name="edited" value="QWx1bm87TElNMDMtTjE0OzIwMjQtMDItMDY7IjEwOjM0OjUwICI7MTsyMzUy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome" type="String" array="False" size=""/>
+            <output expression="&quot; O nome do operador &#233;: &quot;" newline="True"/>
+            <input variable="nome"/>
+            <declare name="endere&#231;o" type="String" array="False" size=""/>
+            <output expression="&quot;O endere&#231;o do operador &#233;: &quot;" newline="True"/>
+            <input variable="endere&#231;o"/>
+            <output expression="&quot; O nome do operador &#233;: &quot; &amp; nome &amp; &quot; O endere&#231;o do operador &#233;: &quot; &amp; endere&#231;o" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

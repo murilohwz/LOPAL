@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-06 09:32:16 "/>
+        <attribute name="created" value="QWx1bm87TElNMDMtTjE0OzIwMjQtMDItMDY7IjA4OjAyOjQ5ICI7MjI1NA=="/>
+        <attribute name="edited" value="QWx1bm87TElNMDMtTjE0OzIwMjQtMDItMDY7IjA5OjMyOjE2ICI7MTsyMzYw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, d" type="Real" array="False" size=""/>
+            <output expression="&quot;insira numero a &quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;insira numero b &quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;insira numero c&quot;" newline="True"/>
+            <input variable="c"/>
+            <output expression="&quot;insira numero d &quot;" newline="True"/>
+            <input variable="d"/>
+            <declare name="resultado" type="Integer" array="False" size=""/>
+            <assign variable="resultado" expression="a+b+c+d"/>
+            <output expression="&quot; a soma dos quatro numeros e igual a &quot; &amp; resultado" newline="True"/>
+            <input variable="resultado"/>
+        </body>
+    </function>
+</flowgorithm>
